@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "start-server": "node app.js"
+    "start": "node init && nodemon app.js",
+    "start-server": "node init && node app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "Maximilian Schwarzm\u00fcller",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.18.3"
